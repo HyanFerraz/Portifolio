@@ -22,13 +22,13 @@ const Navbar = () => {
 		<header className="h-full flex items-center justify-between p-8">
 			<Link
 				href="/"
-				className="flex items-center justify-center text:sm bg-background-color rounded-lg p-1 font-semibold gap-1">
+				className="flex items-center justify-center text:sm bg-background-color rounded-lg p-1 font-extrabold gap-1">
 				<span>Hyan</span>
 				<span className="flex justify-center items-center w-12 h-8 bg-foreground-color text-background-color rounded">
 					.dev
 				</span>
 			</Link>
-			<div className="hidden md:flex gap-8 text-xl font-semibold underline">
+			<div className="hidden md:flex gap-8 text-xl font-bold underline text-background-color">
 				{loadLinks(links)}
 			</div>
 			{/* MENU HAMBURGUER */}
